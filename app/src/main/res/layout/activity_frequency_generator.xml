@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.neil.tunedownforwhat.FrequencyGeneratorActivity">
+
+    <Switch
+        android:id="@+id/toggleSwitch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:switchPadding="6dp"
+        android:layout_marginRight = "24dp"
+        android:layout_marginLeft = "24dp"
+        android:layout_marginTop = "24dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tool="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@id/toggleSwitch2"
+        tools:context="com.example.neil.tunedownforwhat.FrequencyGeneratorActivity">
+
+        <ToggleButton
+            android:id="@+id/ButtonE3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E3"
+            android:layout_marginRight="32dp"
+            app:layout_constraintRight_toLeftOf="@id/ButtonA3"
+            app:layout_constraintBaseline_toBaselineOf="@id/ButtonA3" />
+
+        <ToggleButton
+            android:id="@+id/ButtonA3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A3"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/ButtonD4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D4"
+            android:layout_marginLeft="32dp"
+            app:layout_constraintLeft_toRightOf="@id/ButtonA3"
+            app:layout_constraintBaseline_toBaselineOf="@id/ButtonA3"/>
+
+        <ToggleButton
+            android:id="@+id/ButtonG4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G4"
+            android:layout_marginRight="32dp"
+            app:layout_constraintRight_toLeftOf="@id/ButtonB4"
+            app:layout_constraintBaseline_toBaselineOf="@id/ButtonB4" />
+
+        <ToggleButton
+            android:id="@+id/ButtonB4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B4"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="48dp"
+            app:layout_constraintTop_toBottomOf="@id/ButtonA3"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ToggleButton
+            android:id="@+id/ButtonE5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E5"
+            android:layout_marginLeft="32dp"
+            app:layout_constraintLeft_toRightOf="@id/ButtonB4"
+            app:layout_constraintBaseline_toBaselineOf="@id/ButtonB4"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
