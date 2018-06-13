@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FitChart/FitChart.iml" filepath="$PROJECT_DIR$/FitChart/FitChart.iml" />
       <module fileurl="file://$PROJECT_DIR$/TuneDownForWhat.iml" filepath="$PROJECT_DIR$/TuneDownForWhat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
